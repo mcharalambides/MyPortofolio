@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.outer-dive {
+    @apply flex flex-col items-center justify-center divide-y p-10 pr-72 pl-72 divide-slate-200;
+}
+
