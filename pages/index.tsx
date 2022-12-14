@@ -27,7 +27,7 @@ const Home: NextPage = () => {
 
         <div className='basis-1/4 flex-1 object-cover mx-auto shadow-xl rounded-2xl flex flex-col items-center justify-center divide-y p-10 divide-slate-200'>
           <h1 className='text-center rounded-md bg-slate-100 leading-8 py-3'>2014 - 2016 Infantry School for Reserved Officers</h1>
-          <h1 className='text-center rounded-md  leading-8 py-2'>Graduated the Infantry School of Reserve Officers and completed duties serving as a Reserve Second Lieutenan</h1>
+          <h1 className='text-center rounded-md  leading-8 py-2'>Computer Engineering and Informatics Department</h1>
         </div>
 
         <div className='basis-1/4 flex-1 object-cover mx-auto shadow-xl rounded-2xl flex flex-col items-center justify-center divide-y p-10 divide-slate-200'>
