@@ -5,31 +5,36 @@ import {AiFillLinkedin, AiFillGithub} from "react-icons/ai"
 
 const Home: NextPage = () => {
   return (
-    <div>
+    <div className=' fixed-bottom'>
       <Head>
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className=' bg-slate-50 px-96'>
+      <main className=' bg-slate-50 md:px-96 lg:px-96'>
+
         <div className='text-center p-10'>
         <div className=" text-4xl py-2 text-teal-500 font-medium">Marios Charalambides</div>
         <div className="font-semibold py-2">Software Engineer</div>
         </div>
 
-        <div className='shadow-xl rounded-2xl flex flex-col items-center justify-center divide-y p-10 divide-slate-200'>
-          <h1 className='text-center w-2/4 rounded-md bg-slate-100 leading-8 py-3'>2016 - 2022 University of Patras</h1>
-          <h1 className='text-center w-2/4 rounded-md  leading-8 py-2'>Computer Engineering and Informatics Department</h1>
+        <div className='flex flex-col gap-10 lg:flex-row lg:flex-wrap'>
+          
+        <div className='basis-1/4 flex-1 object-cover mx-auto shadow-xl rounded-2xl flex flex-col items-center justify-center divide-y p-10 divide-slate-200'>
+          <h1 className='text-center rounded-md bg-slate-100 leading-8 py-3'>2016 - 2022 University of Patras</h1>
+          <h1 className='text-center rounded-md  leading-8 py-2'>Computer Engineering and Informatics Department</h1>
         </div>
 
-        <div className='shadow-xl rounded-2xl my-10 flex flex-col items-center justify-center divide-y p-10 divide-slate-200'>
-          <h1 className='text-center w-2/4 rounded-md bg-slate-100 leading-8 py-3'>2014 - 2016 Infantry School for Reserved Officers</h1>
-          <h1 className='text-center w-2/4 rounded-md  leading-8 py-2'>Computer Engineering and Informatics Department</h1>
+        <div className='basis-1/4 flex-1 object-cover mx-auto shadow-xl rounded-2xl flex flex-col items-center justify-center divide-y p-10 divide-slate-200'>
+          <h1 className='text-center rounded-md bg-slate-100 leading-8 py-3'>2014 - 2016 Infantry School for Reserved Officers</h1>
+          <h1 className='text-center rounded-md  leading-8 py-2'>Graduated the Infantry School of Reserve Officers and completed duties serving as a Reserve Second Lieutenan</h1>
         </div>
 
-        <div className='shadow-xl rounded-2xl my-10 flex flex-col items-center justify-center divide-y p-10 divide-slate-200'>
-          <h1 className='text-center w-2/4 rounded-md bg-slate-100 leading-8 py-3'>2011 - 2014 Kykkos B' Lyceum</h1>
-          <h1 className='text-center w-2/4 rounded-md  leading-8 py-2'>Computer Engineering and Informatics Department</h1>
+        <div className='basis-1/4 flex-1 object-cover mx-auto shadow-xl rounded-2xl flex flex-col items-center justify-center divide-y p-10 divide-slate-200'>
+          <h1 className='text-center rounded-md bg-slate-100 leading-8 py-3'>2011 - 2014 Kykkos B' Lyceum</h1>
+          <h1 className='text-center rounded-md  leading-8 py-2'>Computer Engineering and Informatics Department</h1>
+        </div>
+
         </div>
 
 
